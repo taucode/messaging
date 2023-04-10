@@ -24,9 +24,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E83872BD-D1F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FF131A45-BDB6-4173-9400-0E003C270F37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Messaging", "src\TauCode.Messaging\TauCode.Messaging.csproj", "{8D3DF9DB-5F6D-487D-AAC7-C9C0AE8FF7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging", "src\TauCode.Messaging\TauCode.Messaging.csproj", "{8D3DF9DB-5F6D-487D-AAC7-C9C0AE8FF7A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Messaging.Tests", "test\TauCode.Messaging.Tests\TauCode.Messaging.Tests.csproj", "{A98FDD73-F02C-46D9-AC2D-ABB88C06F77F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.Messaging.Tests", "test\TauCode.Messaging.Tests\TauCode.Messaging.Tests.csproj", "{A98FDD73-F02C-46D9-AC2D-ABB88C06F77F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.Messaging.EasyNetQ", "src\TauCode.Messaging.EasyNetQ\TauCode.Messaging.EasyNetQ.csproj", "{5B440C09-5BD7-4068-866D-ED51F27D8496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{A98FDD73-F02C-46D9-AC2D-ABB88C06F77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A98FDD73-F02C-46D9-AC2D-ABB88C06F77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A98FDD73-F02C-46D9-AC2D-ABB88C06F77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B440C09-5BD7-4068-866D-ED51F27D8496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B440C09-5BD7-4068-866D-ED51F27D8496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B440C09-5BD7-4068-866D-ED51F27D8496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B440C09-5BD7-4068-866D-ED51F27D8496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D3DF9DB-5F6D-487D-AAC7-C9C0AE8FF7A9} = {E83872BD-D1F9-4CA5-BAA8-E365EFC8C5C5}
 		{A98FDD73-F02C-46D9-AC2D-ABB88C06F77F} = {FF131A45-BDB6-4173-9400-0E003C270F37}
+		{5B440C09-5BD7-4068-866D-ED51F27D8496} = {E83872BD-D1F9-4CA5-BAA8-E365EFC8C5C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61E1CFE3-7865-4F42-9963-635B9E8D7060}
