@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TauCode.Messaging</id>
+    <version>0.0.1-alpha.1.2023-04-10.17-01</version>
+    <authors>TauCode</authors>
+    <owners>TauCode</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/taucode/messaging</projectUrl>
+    <repository type="git" url="https://github.com/taucode/messaging"/>
+    <description>Basic functionality for message queue support</description>
+    <releaseNotes>
+      Developing release 0.0.1.
+    </releaseNotes>
+    <tags>taucode message queue abstractions mq</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp6.0">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\LICENSE*" target="" />
+    <file src="..\src\TauCode.Messaging\bin\Release\net6.0\TauCode.Messaging.dll" target="lib\net6.0" />
+  </files>
+</package>
