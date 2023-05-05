@@ -1,8 +1,6 @@
-﻿using TauCode.Messaging.Abstractions;
+﻿namespace TauCode.Messaging;
 
-namespace TauCode.Messaging;
-
-public abstract class MessageHandlerBase<TMessage> : IMessageHandler<TMessage>
+public abstract class MessageHandler<TMessage> : IMessageHandler<TMessage>
     where TMessage : class, IMessage
 {
     #region Abstract

@@ -1,6 +1,4 @@
-﻿using TauCode.Messaging.Abstractions;
-
-namespace TauCode.Messaging;
+﻿namespace TauCode.Messaging;
 
 public interface IMessageHandler
 {

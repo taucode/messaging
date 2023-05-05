@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TauCode.Messaging.Abstractions" Version="0.0.3-alpha.1.2023-04-10.17-01" />
-    <PackageReference Include="TauCode.Working" Version="1.8.1-alpha.1.2023-04-10.17-01" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+    <PackageReference Include="TauCode.Messaging.Abstractions" Version="1.9.1-alpha.1.2023-05-05.11-00" />
+    <PackageReference Include="TauCode.Working" Version="1.9.1-alpha.1.2023-05-05.13-00" />
   </ItemGroup>
 
 </Project>
